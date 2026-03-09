@@ -224,7 +224,7 @@ textarea{
     border-radius:5px;
 }
 
-/* 🔥 CORRECCIÓN IMPORTANTE
+/* CORRECCIÓN IMPORTANTE
    Evita que radio y checkbox se estiren */
 input[type="radio"],
 input[type="checkbox"]{
