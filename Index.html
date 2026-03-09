@@ -2,282 +2,344 @@
 <html lang="es">
 
 <head>
+    <!-- Configuración básica -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="Img/LogoTete.png" type="image/png">
 
-<link rel="icon" href="LogoTete.png" type="image/png">
+    <!-- Título -->
+    <title>I love Crochet</title>
 
-<title>Arte Hecho a Mano | Mis Creaciones</title>
-
-<link rel="stylesheet" href="CSS/Style.css">
-
+    <!-- Archivo CSS externo -->
+    <link rel="stylesheet" href="CSS/Style.css">
 </head>
 
 <body>
 
-<header class="header">
+    <!-- ===============================
+         HEADER
+    =============================== -->
+    <header class="header">
+        <div class="logo-titulo">
+            <img src="Img/LogoTete.png" alt="Logo de I love Crochet" class="logo">
 
-<div class="logo-titulo">
+            <div>
+                <h1>I love Crochet | Tejiendo y más</h1>
+                <p><i>Tejiendo con amor y creatividad para cada uno de ustedes</i></p>
+                <p><b>Gracias por apoyar mi emprendimiento.</b></p>
+            </div>
+        </div>
+    </header>
 
-<img src="LogoTete.png" alt="Logo del sitio" class="logo">
+    <!-- ===============================
+         MENÚ DE NAVEGACIÓN
+    =============================== -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#creaciones">Mis Creaciones</a></li>
+            <li><a href="#materiales">Materiales</a></li>
+            <li><a href="#video">Video de lo que hacemos</a></li>
 
-<div>
-<h1>Arte Hecho a Mano</h1>
-<p>Muñecos tejidos y flores artesanales hechas con creatividad</p>
-</div>
+            <!-- Este enlace abre el formulario modal -->
+            <li><a href="#" id="abrirModal">Contacto</a></li>
+        </ul>
+    </nav>
 
-</div>
+    <!-- ===============================
+         CONTENEDOR PRINCIPAL
+    =============================== -->
+    <div class="contenedor">
 
-</header>
+        <!-- CONTENIDO PRINCIPAL -->
+        <main>
 
-<nav>
-<ul>
+            <!-- ===== Sección Inicio ===== -->
+            <section id="inicio">
+                <h2>Gracias a ustedes</h2>
 
-<li><a href="#inicio">Inicio</a></li>
-<li><a href="#creaciones">Mis Creaciones</a></li>
-<li><a href="#materiales">Materiales</a></li>
-<li><a href="#video">Video</a></li>
-<li><a href="#contacto">Contacto</a></li>
+                <p>
+                    Gracias a ti, este sueño de compartir nuestra pasión
+                    por el tejido y las manualidades se ha hecho realidad.
+                    Tejemos con mucho <strong>amor</strong> para ti,
+                    además del tejido realizamos flores tanto de <strong>listón</strong>
+                    y de <strong>limpiapipas</strong>
+                    y muñecos de limpiapipas.
+                </p>
 
-</ul>
-</nav>
+                <p>
+                    Cada pieza está hecha con paciencia y mucho amor.
+                    <mark>Amamos las piezas que les realizamos.</mark>
+                </p>
 
-<div class="contenedor">
+                <p>
+                    Amamos saber que nosotros hemos estado en
+                    <i>momentos especiales</i>.
+                </p>
 
-<main>
+                <small>
+                    Este sitio fue creado con fines educativos para una práctica de desarrollo web.
+                </small>
 
-<section id="inicio">
+                <br><br>
 
-<h2>Mi pasión por las manualidades</h2>
+                <a href="#creaciones" class="boton-productos">Ver productos</a>
 
-<p>
-Desde hace tiempo descubrí que crear cosas con mis manos me hace muy feliz.
-Me encanta realizar <strong>muñecos tejidos</strong>, flores decorativas
-y diferentes tipos de manualidades.
-</p>
+                <hr>
+            </section>
 
-<p>
-Cada pieza está hecha con paciencia y creatividad.
-<mark>Las manualidades permiten transformar materiales simples
-en algo hermoso y especial.</mark>
-</p>
+            <!-- ===== Sección Creaciones ===== -->
+            <section id="creaciones">
+                <h2>Nuestras Creaciones tejidas</h2>
 
-<p>
-El tejido es <b>una de las técnicas más populares</b> dentro del mundo de las manualidades,
-ya que permite crear figuras únicas utilizando solo hilo y creatividad.
-</p>
+                <div class="galeria">
 
-<p>
-Muchas personas consideran el crochet como un arte <i>tradicional y relajante</i>
-que se transmite de generación en generación.
-</p>
+                    <div class="tarjeta">
+                        <img src="Img/migurumi-con-tablita.jpeg" alt="Muñeco tejido">
+                        <p>Personita tejida con base de madera</p>
+                    </div>
 
-<small>Este sitio fue creado con fines educativos para una práctica de desarrollo web.</small>
+                    <div class="tarjeta">
+                        <img src="Img/Tulipanes-ferreros.jpeg" alt="Tulipanes tejidos con ferrero">
+                        <p>Tulipanes tejidos con ferreros en caja de cartón y luces</p>
+                    </div>
 
-<br>
+                    <div class="tarjeta">
+                        <img src="Img/Rosas-Un-Girasol.jpeg" alt="Rosas con un girasol tejidas">
+                        <p>Rosas y girasol tejidos con nota personalizada</p>
+                    </div>
 
-<a href="#creaciones" class="boton-productos">Ver productos</a>
+                    <div class="tarjeta">
+                        <img src="Img/Centro-de-mesa.jpeg" alt="Centro de mesa tejido color rojo">
+                        <p>Centro de mesa tejido</p>
+                    </div>
 
-<hr>
+                    <div class="tarjeta">
+                        <img src="Img/Ramo-rosa.jpeg" alt="Flores tejidas de colores pastel">
+                        <p>Ramo de flores tejidas colores pastel</p>
+                    </div>
 
-</section>
+                    <div class="tarjeta">
+                        <img src="Img/Ramo-limpiapipas.jpeg" alt="Flores de limpiapipas">
+                        <p>Arreglo de flores de limpiapipas con amigurumi tejido</p>
+                    </div>
 
-<section id="creaciones">
+                    <div class="tarjeta">
+                        <img src="Img/Caja-feliz-cumpleaños.jpeg" alt="Caja personalizada de cumpleaños">
+                        <p>Caja personalizada de cumpleaños</p>
+                    </div>
 
-<h2>Mis Creaciones</h2>
+                </div>
+            </section>
 
-<div class="galeria">
+            <!-- ===== Sección Materiales ===== -->
+            <section id="materiales">
+                <h2>Materiales que utilizamos</h2>
 
-<div class="tarjeta">
-<img src="imagenes/muneco.jpg" alt="Muñeco tejido">
-<p>Muñeco tejido</p>
-</div>
+                <p>Para amigurumis y flores tejidas:</p>
+                <ul>
+                    <li>Hilo de algodón</li>
+                    <li>Lana acrílica</li>
+                    <li>Hilo mercerizado</li>
+                    <li>Hilo velvet (terciopelado)</li>
+                    <li>Ganchillo</li>
+                    <li>Palillos</li>
+                </ul>
 
-<div class="tarjeta">
-<img src="imagenes/flor_liston.jpg" alt="Flor de listón">
-<p>Flor de listón</p>
-</div>
+                <p>Para flores y muñecos de limpiapipas:</p>
+                <ul>
+                    <li>Limpiapipas</li>
+                    <li>Palillos de brocheta</li>
+                    <li>Palos de alambre</li>
+                    <li>Espuma floral (oasis)</li>
+                </ul>
 
-<div class="tarjeta">
-<img src="imagenes/flor_limpiapipas.jpg" alt="Flor de limpiapipas">
-<p>Flor de limpiapipas</p>
-</div>
+                <p>Para flores de listón:</p>
+                <ul>
+                    <li>Listón satinado</li>
+                    <li>Palillos de brocheta</li>
+                </ul>
 
-<div class="tarjeta">
-<img src="imagenes/flor_tejida.jpg" alt="Flor tejida">
-<p>Flor tejida</p>
-</div>
+                <h3>Tipos de creaciones que realizamos</h3>
+                <ol>
+                    <li>Muñecos tejidos</li>
+                    <li>Flores de listón</li>
+                    <li>Flores de limpiapipas</li>
+                    <li>Flores tejidas</li>
+                </ol>
 
-</div>
+                <hr>
 
-</section>
+                <h3>Tabla de nuestras creaciones</h3>
 
-<section id="materiales">
+                <table>
+                    <tr>
+                        <th>Creación</th>
+                        <th>Material principal</th>
+                        <th>Nivel de dificultad</th>
+                    </tr>
+                    <tr>
+                        <td>Muñecos tejidos</td>
+                        <td>Hilo de algodón</td>
+                        <td>Depende el tamaño</td>
+                    </tr>
+                    <tr>
+                        <td>Flores de listón</td>
+                        <td>Listón</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr>
+                        <td>Flores limpiapipas</td>
+                        <td>Limpiapipas</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr>
+                        <td>Flores tejidas</td>
+                        <td>Hilo de algodón</td>
+                        <td>Medio</td>
+                    </tr>
+                </table>
 
-<h2>Materiales que utilizo</h2>
+                <p>Puedes conocer más sobre lo que hacemos en este enlace:</p>
 
-<ul>
-<li>Estambre de colores</li>
-<li>Listones</li>
-<li>Limpiapipas</li>
-<li>Agujas para tejido</li>
-<li>Tijeras</li>
-<li>Silicón</li>
-</ul>
+                <a href="https://www.instagram.com/i_love_crochet_20/" target="_blank">
+                    Nuestra cuenta de Instagram I love Crochet
+                </a>
 
-<h3>Tipos de manualidades que realizo</h3>
+            </section>
 
-<ol>
-<li>Muñecos tejidos</li>
-<li>Flores de listón</li>
-<li>Flores de limpiapipas</li>
-<li>Flores tejidas</li>
-</ol>
+            <!-- ===== Sección Video ===== -->
+            <section id="video">
+                <h2>Ejemplo de lo que hacemos</h2>
 
-<hr>
+                <video controls>
+                    <source src="Img/video.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </section>
 
-<h3>Tabla de mis creaciones</h3>
+        </main>
 
-<table>
+        <!-- ===== ASIDE ===== -->
+        <aside>
+            <h3>Curiosidades</h3>
 
-<tr>
-<th>Manualidad</th>
-<th>Material principal</th>
-<th>Nivel de dificultad</th>
-</tr>
+            <h4>Tejer también es historia</h4>
+            <p>
+                El tejido a crochet existe desde el siglo XIX y hoy es considerado
+                una forma de <strong>arte artesanal</strong>.
+            </p>
 
-<tr>
-<td>Muñecos tejidos</td>
-<td>Estambre</td>
-<td>Medio</td>
-</tr>
+            <p>
+                El crochet ha sido una tradición que se ha transmitido de generación en generación.
+                Cada punto guarda historia, sentimientos y tradiciones.
+            </p>
 
-<tr>
-<td>Flores de listón</td>
-<td>Listón</td>
-<td>Fácil</td>
-</tr>
+            <p>
+                Las flores de crochet <em>no se marchitan</em> y duran mucho tiempo.
+            </p>
 
-<tr>
-<td>Flores limpiapipas</td>
-<td>Limpiapipas</td>
-<td>Muy fácil</td>
-</tr>
+            <p>
+                El crochet también es <mark>relajación y terapia creativa</mark>.
+            </p>
+        </aside>
 
-<tr>
-<td>Flores tejidas</td>
-<td>Hilo</td>
-<td>Medio</td>
-</tr>
+    </div>
 
-</table>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <address>
+            Únicamente en Tantoyuca, Veracruz<br>
+            Sitio web creado por: Carolina Ovando<br>
+            Email: luzcarolinaovandovargas@gmail.com<br>
+            Instagram: @I_love_crochet_20
+        </address>
+    </footer>
 
-<p>
-Puedes conocer más sobre artesanías en este enlace:
-</p>
+    <!-- ===== MODAL FORMULARIO ===== -->
+    <div id="modalContacto" class="modal">
+        <div class="modal-contenido">
 
-<a href="https://www.instagram.com/i_love_crochet_20/" target="_blank">
-Nuestra cuenta de Instagram IloveCrochet20
-</a>
+            <span class="cerrar">&times;</span>
 
-</section>
-
-<section id="video">
-
-<h2>Video relacionado con manualidades</h2>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/3kF5KqQ0t8M"
-title="Manualidades"
-frameborder="0"
-allowfullscreen>
-</iframe>
-
-</section>
-
-<section id="contacto">
-
-<h2>Formulario de contacto</h2>
+<h2>Formulario de Contacto</h2>
 
 <form>
 
-<label for="nombre">Nombre</label><br>
-<input type="text" id="nombre" name="nombre" required><br><br>
+    <!-- Nombre -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
 
-<label for="email">Email</label><br>
-<input type="email" id="email" name="email" required><br><br>
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-<label>Tipo de consulta</label><br>
+    <!-- Tipo de consulta (RADIO) -->
+    <p><strong>Tipo de consulta:</strong></p>
 
-<input type="radio" name="consulta"> Sugerencia<br>
-<input type="radio" name="consulta"> Duda<br>
-<input type="radio" name="consulta"> Colaboración<br><br>
+    <label>
+        <input type="radio" name="consulta" value="sugerencia" required>
+        Sugerencia
+    </label>
 
-<label>Intereses</label><br>
+    <label>
+        <input type="radio" name="consulta" value="duda">
+        Duda
+    </label>
 
-<input type="checkbox"> Muñecos tejidos<br>
-<input type="checkbox"> Flores de listón<br>
-<input type="checkbox"> Flores tejidas<br><br>
+    <label>
+        <input type="radio" name="consulta" value="colaboracion">
+        Colaboración
+    </label>
 
-<label for="mensaje">Mensaje</label><br>
+    <!-- Casillas de verificación (CHECKBOX) -->
+    <p><strong>Opciones adicionales:</strong></p>
 
-<textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea><br><br>
+    <label>
+        <input type="checkbox" name="terminos">
+        Acepto términos y condiciones
+    </label>
 
-<button type="submit">Enviar</button>
+    <label>
+        <input type="checkbox" name="newsletter">
+        Quiero recibir el newsletter
+    </label>
+
+    <!-- Área de texto -->
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <!-- Botón de envío -->
+    <button type="submit">Enviar</button>
 
 </form>
 
-</section>
+        </div>
+    </div>
 
-</main>
+    <!-- ===== SCRIPT MODAL ===== -->
+    <script>
+        const modal = document.getElementById("modalContacto");
+        const btn = document.getElementById("abrirModal");
+        const cerrar = document.querySelector(".cerrar");
 
-<aside>
+        btn.onclick = function (e) {
+            e.preventDefault();
+            modal.style.display = "flex";
+        }
 
-<h3>Curiosidades</h3>
+        cerrar.onclick = function () {
+            modal.style.display = "none";
+        }
 
-<p>
-Los <strong>amigurumis</strong> son muñecos tejidos originarios de Japón
-y se han vuelto muy populares en todo el mundo.
-</p>
-
-<p>
-Las flores artesanales son una excelente opción para decoración
-porque <em>no se marchitan</em> y duran mucho tiempo.
-</p>
-
-<p>
-El tejido a crochet existe desde el siglo XIX y hoy es considerado
-una forma de <strong>arte artesanal</strong>.
-</p>
-
-<p>
-Muchas personas utilizan el tejido como una forma de
-<mark>relajación y terapia creativa</mark>.
-</p>
-
-<h4>Dato curioso</h4>
-
-<p>
-Un amigurumi puede tardar entre <strong>2 y 8 horas</strong> en realizarse
-dependiendo de su tamaño y dificultad.
-</p>
-
-</aside>
-
-</div>
-
-<footer>
-
-<address>
-
-Sitio web creado por: Carolina Ovando<br>
-Email: artehechoamano@email.com<br>
-Instagram: @arte_hecho_a_mano
-
-</address>
-
-</footer>
+        window.onclick = function (e) {
+            if (e.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 </html>
